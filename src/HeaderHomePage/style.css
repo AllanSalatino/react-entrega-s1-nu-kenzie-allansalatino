@@ -1,0 +1,44 @@
+.headerHomePage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+    padding: 20px 0px;
+
+    border-bottom: 1px solid #E9ECEF;
+    box-shadow: 5px 5px 5px #e9ecef6c;
+
+    margin-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Nu{
+    color: #FD377E;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+.Kenzie{
+    font-size: 20px;
+    font-weight: 700;
+}
+.buttonStartHomePage{
+    background-color: #E9ECEF;
+    color: #343A40;
+
+    font-size: 12px;
+
+    padding: 10px ;
+
+    border:  none;
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+.buttonStartHomePage:hover{
+    background-color: #FD377E;
+    color: white;
+    
+    transition: .28s;
+}

@@ -1,0 +1,103 @@
+@media only screen and (min-width: 768px) {
+    .containerInputsValues{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        margin-bottom: 15px;
+    
+        width: 100%;
+    }
+    .sectionValue{
+        background-color: #E9ECEF;
+        
+        border-radius: 7px;
+    
+        width: 65%;
+    }
+    .sectionTypeValue{
+        width: 50%;
+    }
+    .Form{
+        border: 1px solid #E9ECEF;
+        border-radius: 5px;
+    
+        padding: 15px;
+        margin: 15px;
+    }
+    .description, 
+    .value, 
+    .TypeValue{
+        font-size: 12px;
+        font-weight: 400;
+    
+        margin-bottom: 10px;
+    }
+    .exemple{
+        font-size: 12px;
+        font-weight: 400;
+    
+        color: grey;
+    
+        margin-bottom: 15px;
+    }
+    .inputDescription{
+        background-color: #E9ECEF;
+    
+        padding: 10px;
+    
+        border: none;
+        border-radius: 7px;
+    
+        width: 92%;
+
+        outline: none;
+    }
+    .inputValue{
+        background-color: #E9ECEF;
+    
+        padding: 10px;
+    
+        border: none;
+        border-radius: 7px;
+    
+        width: 50%;
+
+        outline: none;
+    }
+    .selectTypeValue{
+        background-color: #E9ECEF;
+    
+        padding: 10px;
+    
+        border: none;
+        border-radius: 7px;
+    
+        width: 100%;
+
+        outline: none;
+    }
+    .dollarSign{
+        border: none;
+        border-radius: 7px;
+    
+        width: 25%;
+    }
+    .buttonForm{
+        background-color: #FD377E;
+        color: white;
+    
+        padding: 13px;
+    
+        border: none;
+        border-radius: 7px;
+    
+        width: 100%;
+
+        cursor: pointer;
+    }
+    .buttonForm:hover{
+        background-color: #ff005d;
+        transition: .28;
+    }
+}

@@ -1,0 +1,71 @@
+@media only screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #F8F9FA;
+
+        height: 100vh;
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #212529;
+
+        height: 100vh;
+        width: 100%;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 80%;
+        height: 70vh;
+    }
+    .spanNu{
+        color: #FD377E;
+
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .spanKenzie{
+        color: white;
+
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .slogan{
+        font-size: 2.2rem;
+
+        width: 290px;
+
+        color: white;
+    }
+    .complement{
+        color: white;
+
+        font-size: 1rem;
+
+        margin-bottom: 15px;
+    }
+    .buttonStart{
+        background-color: #FD377E;
+        color: white;
+
+        font-size: 18px;
+
+        width: 250px;
+
+        padding: 10px 20px;
+
+        border: none;
+        border-radius: 7px;
+
+        cursor: pointer;
+    }
+}

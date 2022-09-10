@@ -1,0 +1,53 @@
+.containerCards{
+    width: 90%;
+}
+.noReleases{
+    margin-bottom: 20px;
+}
+.noCard{
+    width: 150%;
+}
+
+.cardEntry,
+.cardExit{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #E9ECEF;
+
+    border-radius: 4px;
+
+    margin-bottom: 15px;
+    padding: 10px 0px;
+}
+.cardEntry{
+    border-left: 5px solid #03B898;
+}
+.cardExit{    
+    border-left: 5px solid #dfdfdf;
+}
+.typeCard{
+    font-size: 12px;
+
+    color: rgb(79, 79, 79);
+}
+.descriptionCard{
+    font-size: 16px;
+ }
+.valeuCard{
+    font-size: 14px;
+
+    color: rgb(79, 79, 79);
+}
+.trash{
+    width: 10px;
+    height: 12px;
+
+    background-color: #d1d1d1;
+
+    padding: 5px 6px;
+
+    border-radius: 3px;
+
+    cursor: pointer;
+}

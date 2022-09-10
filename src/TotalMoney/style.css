@@ -1,0 +1,32 @@
+.containerTotalValue{
+    border: 1px solid #E9ECEF;
+    border-radius: 5px;
+
+    padding: 15px;
+    margin: 0px 15px 30px 15px;
+
+    max-width: 290px;
+    width: 81%;
+}
+.divTotalValue{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+.textTotalValue{
+    font-size: 16px;
+    font-weight: 600;
+}
+.numberTotalValue{
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #FD377E;
+}
+.note{
+    font-size: 12px;
+    font-weight: 400;
+
+    color: grey;
+}
